@@ -40,7 +40,7 @@ should be returned containing all the results of the latest query, because it se
     * **tiangolo/uwsgi-nginx-flask**
 
 3. Run the container execute the following command:  
-`docker run -p 5000:5000 -d -t --name sensat_backend_challenge.container sensat_backend_challenge`. 
+`docker run -p 5000:5000 -d -t --name sensat_backend_challenge.container sensat_backend_challenge`
 
     This should now run the container.  
     
