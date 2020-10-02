@@ -45,6 +45,6 @@ should be returned containing all the results of the latest query, because it se
     This should now run the container.  
     
     (OPTIONAL) To see if it is running execute the following command:  
-    `docker container ls`
+    `docker container ls`  
     You should now see your container present in the list.
 4. Visit [`http://localhost:5000/`](http://localhost:5000/) to see the HTML API homepage with instructions on how to use it.
