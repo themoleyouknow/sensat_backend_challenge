@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Sensor readings for {{box_id}}</h1>
+<h3>Readings taken between {{from_date}} and {{to_date}}</h3>
+<button type="button"> <a href="/data/download"> Download json of readings </a> </button>
+<h3>Navigation</h3>
+<button type="button"> <a href="/"> Home </a> </button>
+<button type="button"> <a href="/configuration"> Change Configuration </a> </button>
+{% endblock %}

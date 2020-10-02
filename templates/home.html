@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1>Sensat Backend Challenge</h1>
+    <p>An HTTP interface for reading sensor data from a database using Python and Flask.</p>
+<h2>How To Use:</h2>
+<h3>Querying the Database</h3>
+<p>In order to query the database for box <b>&ltbox_id&gt</b> for sensor readings between <b>&ltfrom_date&gt</b>
+    and <b>&ltto_date&gt</b> then enter a url with the form:
+    <br><br>
+    http://localhost:5000/readings/<b>&ltbox_id&gt</b>/<b>&ltfrom_date&gt</b>/<b>&ltto_date&gt</b>
+    <br><br>
+    Where:
+    <ul>
+        <li><b>&ltbox_id&gt</b> is the box id of the sensor box of interest </li>
+        <li><b>&ltfrom_date&gt</b> is the datetime from which to search for readings of form: YYYY-MM-DD HH:MM:SS </li>
+        <li><b>&ltto_date&gt</b> is the datetime to which to search for readings (inclusive)
+            of form: YYYY-MM-DD HH:MM:SS </li>
+    </ul>
+    <br>
+    e.g. http://localhost:5000/readings/Box-A1/2019-01-01 00:00:00/2019-12-24 12:12:12</p>
+<h3>Changing Database Configuration Details</h3>
+    <p>In order to edit the database configuration details, head to <a href="/configuration"> the configuration
+    page </a> to upload a .yaml file containing the relevant database configuration information to be changed.</p>
+</body>
+</html>

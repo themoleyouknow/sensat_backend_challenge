@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Configuration File Upload</h1>
+<h3>Please upload a .yaml file containing any of the following keys to change their configuration: </h3>
+<ul>
+    <li>host</li>
+    <li>user</li>
+    <li>password</li>
+    <li>db</li>
+</ul>
+      <form method = "POST" enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+<h3>Navigation</h3>
+<button type="button"> <a href="/"> Home </a> </button>
+{% endblock %}

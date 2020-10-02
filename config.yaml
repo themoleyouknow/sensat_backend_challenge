@@ -1,0 +1,7 @@
+---
+  host: 'interviews.ctsaq8pbcych.eu-west-2.rds.amazonaws.com'
+  user: 'admin'
+  password: 'sensatinterview'
+  port: 3306
+  db: 'interviews'
+...
